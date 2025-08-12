@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome Extension</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Chrome Extension</h1>
+            <p>欢迎使用Chrome扩展脚手架</p>
+        </header>
+        
+        <main class="main">
+            <div class="section">
+                <h2>功能</h2>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <button id="getCurrentTab" class="btn btn-primary">获取当前标签页</button>
+                    </div>
+                    <div class="feature-item">
+                        <button id="saveData" class="btn btn-secondary">保存数据</button>
+                    </div>
+                    <div class="feature-item">
+                        <button id="loadData" class="btn btn-secondary">加载数据</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>状态</h2>
+                <div id="status" class="status">
+                    <p>扩展已加载</p>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>版本 1.0.0</p>
+        </footer>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html> 
